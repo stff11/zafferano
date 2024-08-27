@@ -32,9 +32,7 @@ export default function Layout({ children }) {
       <Header />
       <Navigation />
       <ErrorBoundary>
-        {/* <div className="main-content"> */}
-        {children}
-        {/* </div> */}
+        <main>{children}</main>
       </ErrorBoundary>
       <Footer />
     </>

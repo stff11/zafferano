@@ -105,6 +105,7 @@ header {
     position: relative;
     color: white;
     text-decoration: none;
+    margin-right: 10px;
   }
   
   .cart-count {
