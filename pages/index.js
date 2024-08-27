@@ -7,7 +7,7 @@ export default function Home() {
       <h1>Zafferano di Sardegna DOP</h1>
       {console.log("About to render Hero")}
       <Hero
-        imageSrc="/images/banner2.webp"
+        imageSrc="https://zafferano.netlify.app/images/banner2.webp"
         altText="Purissimo Zafferano di Sardegna"
         captionText="Pure Saffron"
       />
