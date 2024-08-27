@@ -5,13 +5,15 @@ export default function Home() {
   return (
     <div>
       <h1>Zafferano di Sardegna DOP</h1>
-      {console.log("About to render Hero")}
-      <Hero
-        imageSrc="https://zafferano.netlify.app/images/banner2.webp"
-        altText="Purissimo Zafferano di Sardegna"
-        captionText="Pure Saffron"
-      />
-      {console.log("Hero rendered")}
+      <div className="hero">
+          <img
+              src="https://zafferano.netlify.app/images/banner2.webp"
+              alt="pure saffron"
+          />
+          <div className="caption">
+              <h1 className="title">Pure Saffron</h1>
+          </div>
+      </div>
     </div>
   )
 }
