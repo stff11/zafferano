@@ -6,7 +6,7 @@ export default function Product({ product }) {
 
   const handleAddToCart = () => {
     addToCart(product)
-    toast.success(`${product.name} aggiunto al carrello!`)
+    toast.success(`${product.name} aggiunto al carrello!`, {autoClose: 1000})
   }
 
   return (

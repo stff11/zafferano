@@ -41,7 +41,7 @@ export default function Basket() {
               </li>
             ))}
           </ul>
-          <p>Totale: €{total.toFixed(2)}</p>
+          <p><b>Totale: €{total.toFixed(2)}</b></p>
           <PayPalButtons
             createOrder={createOrder}
             onApprove={onApprove}
