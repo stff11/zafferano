@@ -1,11 +1,11 @@
 {
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/about": "pages/about.html",
-  "/basket": "pages/basket.html",
   "/_app": "pages/_app.js",
-  "/": "pages/index.html",
+  "/about": "pages/about.html",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
   "/contact": "pages/contact.html",
+  "/basket": "pages/basket.html",
   "/prodotti": "pages/prodotti.html",
+  "/": "pages/index.html",
   "/404": "pages/404.html"
 }
