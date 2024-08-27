@@ -1,5 +1,6 @@
 import Header from './Header'
 import Navigation from './Navigation'
+import Footer from './Footer'
 
 export default function Layout({ children }) {
   return (
@@ -7,9 +8,7 @@ export default function Layout({ children }) {
       <Header />
       <Navigation />
       <main>{children}</main>
-      <footer>
-        <p>&copy; 2024 Zafferano di Sardegna DOP - Porto Torres. Tutti i diritti riservati.</p>
-      </footer>
+      <Footer />
     </>
   )
 }

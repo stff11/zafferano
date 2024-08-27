@@ -1,10 +1,10 @@
 import Product from './Product'
 
 const products = [
-  { id: 1, name: 'Zafferano di Sardegna DOP 0.1g', price: 10.00, image: '/images/zafferano-portrait.jpg' },
-  { id: 2, name: 'Zafferano di Sardegna DOP 1g', price: 80.00, image: '/images/zafferano3.jpg' },
-  { id: 3, name: 'Zafferano di Sardegna DOP 5g (Anfora)', price: 350.00, image: '/images/anfora.jpg' },
-  { id: 4, name: 'Zafferano di Sardegna DOP 100g (Ingrosso)', price: 6000.00, image: '/images/zafferano2.jpg' },
+  { id: 1, name: '0.1g', price: 10.00, image: '/images/products/0.1g.webp' },
+  { id: 2, name: '1g', price: 80.00, image: '/images/products/pure.webp' },
+  { id: 3, name: '5g', price: 350.00, image: '/images/products/5g.webp' },
+  { id: 4, name: '100g (Ingrosso)', price: 6000.00, image: '/images/products/100g.webp' },
 ]
 
 export default function ProductList() {
