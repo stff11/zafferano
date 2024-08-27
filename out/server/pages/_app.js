@@ -1,1 +1,305 @@
-(()=>{var e={};e.id=888,e.ids=[888],e.modules={1005:(e,r,t)=>{"use strict";t.d(r,{Z:()=>f});var s=t(997),i=t(6689),n=t.n(i),a=t(1664),o=t.n(a),c=t(5675),d=t.n(c),l=t(9831),h=t(8176);function x(){let{cart:e}=(0,h.j)();return s.jsx("header",{children:(0,s.jsxs)("div",{className:"header-content",children:[s.jsx("div",{className:"logo-container",children:(0,s.jsxs)(o(),{href:"/",className:"logo-link",children:[s.jsx(d(),{src:"/logo.png",alt:"Zafferano di Sardegna DOP",width:200,height:150}),s.jsx(d(),{src:"/zaff-med.png",alt:"Zafferano Mediterraneo",width:200,height:60})]})}),(0,s.jsxs)(o(),{href:"/basket",className:"cart-icon",children:[s.jsx(l.FeP,{size:24}),e.length>0&&s.jsx("span",{className:"cart-count",children:e.length})]})]})})}function u(){return s.jsx("nav",{children:(0,s.jsxs)("ul",{children:[s.jsx("li",{children:s.jsx(o(),{href:"/prodotti",children:"Prodotti"})}),s.jsx("li",{children:s.jsx(o(),{href:"/about",children:"Chi Siamo"})}),s.jsx("li",{children:s.jsx(o(),{href:"/contact",children:"Contatti"})})]})})}function j(){let e="390791234567",r=`https://wa.me/${e}`;return(0,s.jsxs)("footer",{children:[s.jsx("p",{children:"\xa9 2024 Zafferano di Sardegna DOP - Porto Torres. Tutti i diritti riservati."}),s.jsx("p",{children:s.jsx("a",{href:"mailto:info@zafferanosardegnadop.it",children:"info@zafferanosardegnadop.it"})}),s.jsx("p",{children:(0,s.jsxs)("a",{href:r,target:"_blank",rel:"noopener noreferrer",children:[s.jsx(l.xpo,{style:{marginLeft:"5px",fontSize:"1.2em",verticalAlign:"middle"}}),"\xa0 +",e]})})]})}class p extends n().Component{constructor(e){super(e),this.state={hasError:!1}}static getDerivedStateFromError(e){return{hasError:!0}}componentDidCatch(e,r){console.log(e,r)}render(){return this.state.hasError?s.jsx("h1",{children:"Something went wrong."}):this.props.children}}function f({children:e}){return(0,s.jsxs)(s.Fragment,{children:[s.jsx(x,{}),s.jsx(u,{}),s.jsx(p,{children:s.jsx("main",{children:e})}),s.jsx(j,{})]})}},8176:(e,r,t)=>{"use strict";t.d(r,{Z:()=>a,j:()=>o});var s=t(997),i=t(6689);let n=(0,i.createContext)();function a({children:e}){let[r,t]=(0,i.useState)([]);return s.jsx(n.Provider,{value:{cart:r,addToCart:e=>{t(r=>[...r,e])},clearCart:()=>{t([])}},children:e})}function o(){return(0,i.useContext)(n)}},3414:(e,r,t)=>{"use strict";t.a(e,async(e,s)=>{try{t.r(r),t.d(r,{default:()=>l});var i=t(997);t(6764);var n=t(3590);t(8819);var a=t(1005),o=t(8176),c=t(2929),d=e([n]);n=(d.then?(await d)():d)[0];let l=function({Component:e,pageProps:r}){return i.jsx(c.PayPalScriptProvider,{options:{"client-id":"AVCGQdn61GidSSD5HAEYREv2q6S9JfwHyKT0G0XLV0OUBmhC8i8aAQqARFmmCwj_O2Ss8qQ75uHOZqkz"},children:i.jsx(o.Z,{children:(0,i.jsxs)(a.Z,{children:[i.jsx(e,{...r}),i.jsx(n.ToastContainer,{})]})})})};s()}catch(e){s(e)}})},6764:()=>{},2929:e=>{"use strict";e.exports=require("@paypal/react-paypal-js")},2785:e=>{"use strict";e.exports=require("next/dist/compiled/next-server/pages.runtime.prod.js")},6689:e=>{"use strict";e.exports=require("react")},6405:e=>{"use strict";e.exports=require("react-dom")},997:e=>{"use strict";e.exports=require("react/jsx-runtime")},3590:e=>{"use strict";e.exports=import("react-toastify")}};var r=require("../webpack-runtime.js");r.C(e);var t=e=>r(r.s=e),s=r.X(0,[117,274],()=>t(3414));module.exports=s})();
+"use strict";
+(() => {
+var exports = {};
+exports.id = 888;
+exports.ids = [888];
+exports.modules = {
+
+/***/ 9581:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   config: () => (/* binding */ config),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   getServerSideProps: () => (/* binding */ getServerSideProps),
+/* harmony export */   getStaticPaths: () => (/* binding */ getStaticPaths),
+/* harmony export */   getStaticProps: () => (/* binding */ getStaticProps),
+/* harmony export */   reportWebVitals: () => (/* binding */ reportWebVitals),
+/* harmony export */   routeModule: () => (/* binding */ routeModule),
+/* harmony export */   unstable_getServerProps: () => (/* binding */ unstable_getServerProps),
+/* harmony export */   unstable_getServerSideProps: () => (/* binding */ unstable_getServerSideProps),
+/* harmony export */   unstable_getStaticParams: () => (/* binding */ unstable_getStaticParams),
+/* harmony export */   unstable_getStaticPaths: () => (/* binding */ unstable_getStaticPaths),
+/* harmony export */   unstable_getStaticProps: () => (/* binding */ unstable_getStaticProps)
+/* harmony export */ });
+/* harmony import */ var next_dist_server_future_route_modules_pages_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3185);
+/* harmony import */ var next_dist_server_future_route_modules_pages_module__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_pages_module__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5244);
+/* harmony import */ var next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7182);
+/* harmony import */ var private_next_pages_document_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6088);
+/* harmony import */ var private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6004);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__]);
+private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+// @ts-ignore this need to be imported from next/dist to be external
+
+
+
+// Import the app and document modules.
+// @ts-expect-error - replaced by webpack/turbopack loader
+
+// @ts-expect-error - replaced by webpack/turbopack loader
+
+// Import the userland code.
+// @ts-expect-error - replaced by webpack/turbopack loader
+
+const PagesRouteModule = next_dist_server_future_route_modules_pages_module__WEBPACK_IMPORTED_MODULE_0__.PagesRouteModule;
+// Re-export the component (should be the default export).
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_2__/* .hoist */ .l)(private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__, "default"));
+// Re-export methods.
+const getStaticProps = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_2__/* .hoist */ .l)(private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__, "getStaticProps");
+const getStaticPaths = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_2__/* .hoist */ .l)(private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__, "getStaticPaths");
+const getServerSideProps = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_2__/* .hoist */ .l)(private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__, "getServerSideProps");
+const config = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_2__/* .hoist */ .l)(private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__, "config");
+const reportWebVitals = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_2__/* .hoist */ .l)(private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__, "reportWebVitals");
+// Re-export legacy methods.
+const unstable_getStaticProps = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_2__/* .hoist */ .l)(private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__, "unstable_getStaticProps");
+const unstable_getStaticPaths = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_2__/* .hoist */ .l)(private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__, "unstable_getStaticPaths");
+const unstable_getStaticParams = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_2__/* .hoist */ .l)(private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__, "unstable_getStaticParams");
+const unstable_getServerProps = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_2__/* .hoist */ .l)(private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__, "unstable_getServerProps");
+const unstable_getServerSideProps = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_2__/* .hoist */ .l)(private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__, "unstable_getServerSideProps");
+// Create and export the route module that will be consumed.
+const routeModule = new PagesRouteModule({
+    definition: {
+        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__/* .RouteKind */ .x.PAGES,
+        page: "/_app",
+        pathname: "/_app",
+        // The following aren't used in production.
+        bundlePath: "",
+        filename: ""
+    },
+    components: {
+        App: private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__["default"],
+        Document: private_next_pages_document_js__WEBPACK_IMPORTED_MODULE_3__["default"]
+    },
+    userland: private_next_pages_app_js__WEBPACK_IMPORTED_MODULE_4__
+});
+
+//# sourceMappingURL=pages.js.map
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
+
+/***/ }),
+
+/***/ 2929:
+/***/ ((module) => {
+
+module.exports = require("@paypal/react-paypal-js");
+
+/***/ }),
+
+/***/ 3076:
+/***/ ((module) => {
+
+module.exports = require("next/dist/server/future/route-modules/route-module.js");
+
+/***/ }),
+
+/***/ 4140:
+/***/ ((module) => {
+
+module.exports = require("next/dist/server/get-page-files.js");
+
+/***/ }),
+
+/***/ 9716:
+/***/ ((module) => {
+
+module.exports = require("next/dist/server/htmlescape.js");
+
+/***/ }),
+
+/***/ 3100:
+/***/ ((module) => {
+
+module.exports = require("next/dist/server/render.js");
+
+/***/ }),
+
+/***/ 6368:
+/***/ ((module) => {
+
+module.exports = require("next/dist/server/utils.js");
+
+/***/ }),
+
+/***/ 3918:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/amp-context.js");
+
+/***/ }),
+
+/***/ 5732:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/amp-mode.js");
+
+/***/ }),
+
+/***/ 3280:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/app-router-context.js");
+
+/***/ }),
+
+/***/ 6724:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/constants.js");
+
+/***/ }),
+
+/***/ 5132:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/get-img-props.js");
+
+/***/ }),
+
+/***/ 2796:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/head-manager-context.js");
+
+/***/ }),
+
+/***/ 8743:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/html-context.js");
+
+/***/ }),
+
+/***/ 744:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/image-config-context.js");
+
+/***/ }),
+
+/***/ 5843:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/image-config.js");
+
+/***/ }),
+
+/***/ 8524:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/is-plain-object.js");
+
+/***/ }),
+
+/***/ 4964:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router-context.js");
+
+/***/ }),
+
+/***/ 1751:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js");
+
+/***/ }),
+
+/***/ 3938:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
+
+/***/ }),
+
+/***/ 1109:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/is-local-url.js");
+
+/***/ }),
+
+/***/ 8854:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/parse-path.js");
+
+/***/ }),
+
+/***/ 3297:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slash.js");
+
+/***/ }),
+
+/***/ 7782:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/resolve-href.js");
+
+/***/ }),
+
+/***/ 2470:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/side-effect.js");
+
+/***/ }),
+
+/***/ 9232:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/utils.js");
+
+/***/ }),
+
+/***/ 618:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/utils/warn-once.js");
+
+/***/ }),
+
+/***/ 6689:
+/***/ ((module) => {
+
+module.exports = require("react");
+
+/***/ }),
+
+/***/ 6405:
+/***/ ((module) => {
+
+module.exports = require("react-dom");
+
+/***/ }),
+
+/***/ 1301:
+/***/ ((module) => {
+
+module.exports = import("react-icons/fa");;
+
+/***/ }),
+
+/***/ 3590:
+/***/ ((module) => {
+
+module.exports = import("react-toastify");;
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, [32,947], () => (__webpack_exec__(9581)));
+module.exports = __webpack_exports__;
+
+})();
