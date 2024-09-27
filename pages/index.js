@@ -4,7 +4,7 @@ export default function Home() {
   console.log("Rendering Home component");
   return (
     <div>
-      <h1>Zafferano di Sardegna DOP</h1>
+      <h1>Zafferano di Sardegna</h1>
       <Hero        
         imageSrc="/images/banner2.webp"
         altText="Purissimo Zafferano di Sardegna"

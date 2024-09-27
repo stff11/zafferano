@@ -1,9 +1,20 @@
-:root {
+/* :root {
     --primary-color: #B8860B;
     --secondary-color: #8B4513;
     --background-color: #FFF8DC;
     --text-color: #4A4A4A;
-    --card-background: rgba(255, 255, 255, 0.9);
+    --card-background: hsla(0, 0%, 100%, .9); 
+} */
+
+:root {
+  --primary-color: #FF9800;        /* Vibrant saffron orange */
+  --secondary-color: #7D3C98;      /* Rich purple of saffron flowers */
+  --background-color: #FFF3E0;     /* Light peachy background */
+  --text-color: #333333;           /* Dark gray for readability */
+  --card-background: #FFFFFF;      /* Pure white for cards */
+  --accent-color: #FFC107;         /* Amber for highlights */
+  --purple-light: #D2B4DE;         /* Lighter purple for subtle accents */
+  --orange-dark: #E65100;          /* Darker orange for contrast */
 }
 
 body {
@@ -83,6 +94,17 @@ header {
     color: white;
 }
 
+.section {
+  color: var(--text-color); 
+  background-color: var(--background-color);
+  line-height: 1.6;
+}
+
+.inline10 {
+  display: inline;
+  margin-left: 10px;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .title {
@@ -96,9 +118,13 @@ header {
     }
 }
 
-  
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
   a:hover {
     text-decoration: none;
+    color: var(--primary-color);
   }
   
   .cart-icon {
@@ -216,7 +242,8 @@ button:hover {
 }
 
 #about, #contact {
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background: var(--card-background);
     padding: 5% 7%;
     border-radius: 15px;

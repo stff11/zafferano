@@ -6,7 +6,7 @@ export default function Footer() {
 
     return (
         <footer>
-          <p>&copy; 2024 Zafferano di Sardegna DOP - Porto Torres. Tutti i diritti riservati.</p>
+          <p>&copy; 2024 Zafferano di Sardegna - Porto Torres. Tutti i diritti riservati.</p>
           <p><a href="mailto:info@zafferanosardegnadop.it">info@zafferanosardegnadop.it</a></p>
             <p>
                 <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
